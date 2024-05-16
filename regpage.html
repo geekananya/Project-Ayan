@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link href="assets/img/favicon.jpeg" rel="icon">
+    <link href="assets/img/favicon.jpeg" rel="favicon">
+    <link rel="stylesheet" href="assets/vendor/glightbox/css/styles.css">
+</head>
+<body>
+
+
+   <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div id="logo">
+        <a href="index.html"><img src="assets/img/logo.png"  alt="" height="65" width="'150"></a>
+       
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="index.html">AYAN</a></h1>-->
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+    <div class="form-container">
+        <h2>Registration</h2>
+        <form class="form">
+            <div class="form-input">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            
+            <div class="form-input">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="M" style="margin-left: 20px">
+                <label for="male"  style="display: inline">Male</label>
+                <input type="radio" id="female" name="gender" value="F" style="margin-left: 20px">
+                <label for="female" style="display: inline">Female</label>
+            </div>
+            
+            <div class="form-input">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+            </div>
+            
+            <div class="form-input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="occupation">Occupation:</label>
+                <input type="text" id="occupation" name="occupation" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="password">Set Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div class="form-input">
+                <input type="submit" value="Register" id="register">
+            </div>
+        </form>
+    </div>
+
+    <script src="assets/js/registration.js"></script>
+    
+</body>
+</html>

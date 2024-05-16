@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Organization Registration</title>
+    <link href="assets/img/favicon.jpeg" rel="icon">
+    <link href="assets/img/favicon.jpeg" rel="favicon">
+    <link rel="stylesheet" href="assets/vendor/glightbox/css/styles.css">
+</head>
+<body>
+
+    <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div id="logo">
+        <a href="index.html"><img src="assets/img/logo.png"  alt="" height="65" width="'150"></a>
+       
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="index.html">AYAN</a></h1>-->
+      </div>
+    </div>
+  </header><!-- End Header -->
+    <div class="form-container">
+        <h2>Organization Registration</h2>
+        <form class="form">
+            <div class="form-input">
+                <label for="name">Organization Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+            </div>
+            
+            <div class="form-input">
+                <label for="cause">Cause:</label>
+                <input type="text" id="cause" name="cause" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="instagram">Instagram Profile:</label>
+                <input type="url" id="instagram" name="instagram">
+            </div>
+            
+            <div class="form-input">
+                <label for="facebook">Facebook Profile:</label>
+                <input type="url" id="facebook" name="facebook">
+            </div>
+            
+            <div class="form-input">
+                <label for="twitter">Twitter Profile:</label>
+                <input type="url" id="twitter" name="twitter" required>
+            </div>
+
+            <div class="form-input">
+                <label for="password">Set Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div class="form-input">
+                <input type="submit" value="Register" id="register">
+            </div>
+        </form>
+    </div>
+    <script src="assets/js/organization_registration.js"></script>
+</body>
+</html>

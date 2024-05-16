@@ -1,0 +1,1 @@
+window.userid = 0;

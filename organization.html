@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Organization</title>
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+  <link href="assets/img/favicon.jpeg" rel="icon">
+  <link href="assets/img/favicon.jpeg" rel="favicon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+   
+    <link rel="stylesheet" href="assets/css/stylesss.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/glightbox/css/styles.css">
+    <link href="assets/css/mystyles.css" rel="stylesheet">
+</head>
+<body>
+
+     <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div id="logo">
+        <a href="index.html"><img src="assets/img/logo.png"  alt="" height="65" width="'150"></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="index.html">AYAN</a></h1>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#services">Fundraising</a></li>
+          <li><a class="nav-link scrollto logout" style="cursor: pointer;">LogOut</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <section id="heroiene">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Help the people </h1>
+      <h2>Grow up humanity & kindness</h2>
+      <a href="#services" class="btn-get-started">Start</a>
+    </div>
+  </section><!-- End Heroiene Section -->
+    
+  <main id="main">
+    <section id="services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <h3 class="section-title">How can you Help</h3>
+            <div><img src="assets/img/givee.jpg"  alt="" height="350" width="480"></div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+          <div class="box fund-box">
+            <div class="icon"><a href="#fund-form"><i class="fas fa-handshake"></i></a></div>
+            <h4 class="title"><a href="#fund-form">Raise Funds</a></h4>
+            <a href="#fund-form"><button class="btn btn-outline-success" id="funds">Start a Fundraiser</button></a>
+              <!-- List of fundraisers -->      
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <section id="fund-form">
+      <div class="form-container">
+        <h3 class="b4-form">Together, we can make a difference</h3>
+        <form class="form">
+          <div class="flex input-flex">
+            <div class="form-input">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="form-input">
+                <label for="goal">Goal Amount (Rs.):</label>
+                <input type="number" id="goal" name="goal" required>
+            </div>
+          </div>
+          <div class="form-input">
+              <label for="description">Description/Cause:</label>
+              <!-- <input type="text" id="description" name="description" required> -->
+              <textarea name="Text1" cols="40" rows="4"></textarea>
+          </div>
+          <div class="form-input">
+              <label for="info">Any further information (You may add links, proofs, etc):</label>
+
+              <input type="text" id="info" name="info">
+              <input type="url" id="link" name="link" placeholder="link">
+          </div>
+          <div class="form-input">
+              <input type="submit" value="Start Fundraiser!" id="raise">
+          </div>
+      </form>
+      </div>
+    </section>
+    <h3 class="fund-msg">Fundraiser added!</h3>
+    
+    <section>
+      <div class="location-sharing">
+        <h2>Location </h2>
+        <div id="map">
+          <!-- Placeholder for map or location sharing interface -->
+          <p>Placeholder for map...</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+     <!-- ======= Footer ======= -->
+    <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>AYAN</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">TEAM KASHTI <i class="fa-solid fa-heart"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/logout.js"></script>
+
+</body>
+</html>
